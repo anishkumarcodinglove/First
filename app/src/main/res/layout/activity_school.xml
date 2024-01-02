@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SchoolActivity">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="80px"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:text="School Education" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cvslr_school_photo_1" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="80px"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="Chinmaya Vidyalaya Srimathi Lingammal Ramaraju Matriculation Higher Secondary School" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="80px"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="End of School Life : 2023" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="80px"
+        android:layout_marginTop="20dp"
+        android:text="Secondary Percentage(10) : Corona Batch " />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="80px"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+
+        android:text="Higher Percentage (12) : 75%" />
+</LinearLayout>
